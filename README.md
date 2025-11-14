@@ -1,8 +1,9 @@
-import os
-import tkinter as tk
-from tkinter import filedialog, messagebox
-from PIL import Image
-import pandas as pd
+提取图片EXIF坐标信息。 
+支持：文件夹和子文件夹；
+jpg jpeg png heic tiff bmp gif webp jfif dng cr2 nef arw rw2 sr2 raf orf pef ；
+支持全格式 + 大小写自动处理 + 中文路径；
+自由选择文件夹和导出文件夹保存格式有Excel格式则 csv格式。
+通过gpt+Python制作。
 
 # 支持的图片格式
 IMAGE_EXTS = {
